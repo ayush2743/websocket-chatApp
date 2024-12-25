@@ -1,0 +1,100 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+    display: flex;
+}
+
+.room-box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.redroom {
+    margin-bottom: 10px;
+    height: 50px;
+    background-color: rgb(143, 58, 58);
+}
+
+.blueroom {
+    margin-bottom: 10px;
+    height: 50px;
+    background-color: rgb(76, 111, 187);
+}
+
+.greenroom {
+    margin-bottom: 10px;
+    height: 50px;
+    background-color: rgba(87, 183, 87, 0.498);
+}
+
+.main-box {
+    width: 400px;
+    height: auto;
+    /* margin-left: 10px; */
+    border: 2px solid rgb(151, 151, 151);
+    background-color: rgb(31, 31, 28);
+}
+
+.text-box {
+    width:  auto;
+    height: 500px;
+    margin: 20px;
+    overflow-y: auto;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.input {
+    width: 100%; 
+    padding: 10px;
+}
+
+.message {
+    background-color: rgba(47, 47, 47, 0.894);
+    color: black;
+    border: 1px solid rgba(47, 47, 47, 0.955);
+    margin: 15px;
+    display: flex;
+    justify-self: right;
+    text-align: left;
+    padding: 5px 10px;
+    width: max-content;
+    max-width: 70%;
+    color: white;
+    box-shadow: 5px 4px 0px 0px rgba(67, 65, 65, 0.812);
+}
+
+.othermessage {
+    background-color: rgba(245, 245, 245, 0.812);
+    color: black;
+    border: 1px solid gray;
+    margin: 10px;
+    display: flex;
+    justify-self: left;
+    text-align: left;
+    padding: 5px 10px;
+    width: max-content;
+    max-width: 70%;
+    box-shadow: 5px 4px 0px 0px rgba(200, 194, 194, 0.812);
+
+}
+
+
+.divider {
+    border-bottom: 2px solid rgb(151, 151, 151);;
+    margin: 20px;
+}
+
+
+
