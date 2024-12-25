@@ -1,6 +1,6 @@
 import { WebSocketServer, WebSocket } from "ws";
 
-const wss = new WebSocketServer({ port:8080, host: '0.0.0.0' });
+const wss = new WebSocketServer({ port: 8080, host: '0.0.0.0' });
 
 const clients = new Map<WebSocket, string>();
 
