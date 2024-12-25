@@ -20,7 +20,7 @@ function App() {
     const messageEndRef = useRef<HTMLDivElement | null>(null);
 
     useEffect(() => {
-        const ws = new WebSocket("ws://localhost:8080");
+        const ws = new WebSocket("wss://websocket-chatapp-skfs.onrender.com");
         socketRef.current = ws;
 
 
